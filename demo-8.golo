@@ -37,4 +37,5 @@ function main = |args| {
   }))
 
   server: start()
+  println(">>> Running on http://localhost:8081")
 }
