@@ -2,9 +2,9 @@ module demo10
 
 local function Person = |name, email| ->
   DynamicObject(): 
-  name(name): 
-  email(email):
-  define("to_s", |this| -> this: name() + " <" + this: email() + ">")
+    name(name): 
+    email(email):
+    define("to_s", |this| -> this: name() + " <" + this: email() + ">")
 
 function main = |args| {
 
